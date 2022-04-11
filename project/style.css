@@ -1,0 +1,241 @@
+*{
+    background-color: black;
+}
+.logo img{
+    height: 80px;
+    width: 180px;
+}
+.socials img{
+    height: 30px;
+    width: 30px;
+}
+.navbar{
+    display:flex;
+}
+.nav-list{
+    display: flex;
+}
+.nav-list li{
+    padding: 0px 30px;
+    list-style: none;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list li a:hover{
+    text-decoration: underline;
+    color: yellow;
+}
+.nav-list li a:active{
+    text-decoration: underline;
+    color: yellow;
+}
+.socials{
+    text-align: right;
+}
+.socials a{
+    padding-right: 30px;
+}
+.Main{
+    display: block;
+    text-align: center;
+    color: white;
+    padding-bottom: 100px;
+}
+.Main h1{
+    font-size: 100px;
+}
+.Main video{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gif-row{
+    display: flex;
+}
+.gif-row img{
+    width: 25%;
+}
+.gif-row video{
+    width: 25%;
+}
+.welcome{
+    display: flex;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    justify-content: space-around;
+    line-height: 1.5em;
+}
+.welcome h1{
+    font-size: 2em;
+}
+.faq h2{
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    font-style: bold;
+}
+.faq details{
+    font-size: 20px;
+    color: white;
+    line-height: 3em;
+}
+.roadmap{
+    width: 100vw;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+@media only screen and (max-width: 900px) {
+    .welcome {
+      flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+  }
+  h1,h2{
+      font-family: sans-serif;
+  }
+  .btn, .btn-dark{
+      border: 2px white;
+  }
+  .roadmap video{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 70%;
+      }
+      .Main img{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 60%;
+      }
+
+.wrapper{
+    padding-top: 10%;
+  }
+  
+  .wrapper h1{
+    font-family: 'Allura', cursive;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+    color: white;
+  }
+  
+  .team{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  
+  .team .team_member{
+    background: rgb(5, 5, 5);
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #ffffff;  
+    position: relative;
+  }
+  
+  .team .team_member h3{
+    color: #ffffff;
+    font-size: 26px;
+    margin-top: 50px;
+  }
+  
+  .team .team_member p.role{
+    color: rgb(255, 255, 255);
+    margin: 12px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  
+  .team .team_member .team_img{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgb(0, 0, 0);
+  }
+  
+  .team .team_member .team_img img{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+  }
+  detail:open{
+      margin-bottom: 0%;
+  }
+  #footer{
+      color:white;
+      margin-top: 50px;
+      text-align: center;
+  }
+  .welp{
+    font-size: 36px;
+    line-height: 40px;
+    margin-top: 0;
+    padding: 0px 170px;
+    margin-bottom: 1rem;
+  }
+  .btn-dark:hover {
+    color: #fff;
+    background-color: #444444;
+    border-color: #ffffff;
+}
+.btn:hover {
+    color: #ffffff;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+.btn-dark {
+    color: #fff;
+    background-color: #212529;
+    border-color: #212529;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 3px solid #ffffff;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.roadmap-text{
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:30px ;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
